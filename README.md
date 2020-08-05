@@ -8,6 +8,6 @@ You can download the dataset from :https://www.kaggle.com/c/tensorflow-speech-re
 
 ### Model:
 
-The model consists of Conv1d layers followed by maxpooling layer. Also dropout is used as the regularization method.
+The model consists of 4 Conv blocks (Conv1d layers followed by maxpooling layer and then dropout) and 2 fully connected layers. Dropout rate is 0.3 and Adam is used as optimizer.
 
 ![](model.png)
